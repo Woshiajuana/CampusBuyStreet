@@ -37,7 +37,7 @@
             </li>
           </ul>
           <ul class="mui-table-view">
-            <li class="mui-table-view-cell" style="text-align: center;">
+            <li class="mui-table-view-cell">
               <a>退出登录</a>
             </li>
           </ul>
@@ -52,12 +52,12 @@
           <span class="mui-icon mui-icon-home"></span>
           <span class="mui-tab-label">首页</span>
         </a>
-        <a class="mui-tab-item" href="#tabbar-with-contact" :class="{'mui-active':nav_active_id == 2}" @click="nav_active_id = 2">
+        <a class="mui-tab-item" href="#find" :class="{'mui-active':nav_active_id == 2}" @click="nav_active_id = 2">
           <span class="mui-icon mui-icon-eye"></span>
           <span class="mui-tab-label">发现</span>
         </a>
-        <a class="mui-tab-item" href="#tabbar-with-chat" :class="{'mui-active':nav_active_id == 3}" @click="nav_active_id = 3">
-          <span class="mui-icon mui-icon-email"><span class="mui-badge">0</span></span>
+        <a class="mui-tab-item" href="#news" :class="{'mui-active':nav_active_id == 3}" @click="nav_active_id = 3">
+          <span class="mui-icon mui-icon-email"></span>
           <span class="mui-tab-label">消息</span>
         </a>
         <a class="mui-tab-item" @click.prevent="openMenu()">
@@ -65,7 +65,7 @@
           <span class="mui-tab-label">我的买手街</span>
         </a>
       </nav>
-      <router-view></router-view>
+      <router-view v-on:showNavId="showNavId"></router-view>
     </div>
     <!--/主体部分-->
 
@@ -74,14 +74,7 @@
 
 <!--js-->
 <script src="../static/js/app.js"></script>
-<style>
-  @font-face {
-    font-family: Muiicons;
-    font-weight: 400;
-    font-style: normal;
-    src: url(../static/fonts/mui.ttf) format('truetype')
-  }
-</style>
+
 <!--scss-->
 <style lang="scss">
   @import "../static/scss/app.scss";

@@ -12,7 +12,9 @@ export default {
   methods: {
     openMenu: function () {
       this.is_open_menu = !this.is_open_menu;
-      console.log(1)
+    },
+    showNavId: function (nav_active_id) {
+      this.nav_active_id = nav_active_id;
     }
   }
 }
