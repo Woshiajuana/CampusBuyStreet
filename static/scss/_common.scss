@@ -1,0 +1,16 @@
+@import "define";
+@import "mui";
+//设置输入框提示信息的文字
+::-webkit-input-placeholder {
+  @extend %cc;
+  font-family: "Microsoft Yahei", Arial, "宋体";
+}
+//body{
+//  @extend %f14;
+//  @extend %c6;
+//  background-color: #fff;
+//}
+//a{
+//  @extend %c6;
+//  transition: color .3s;
+//}

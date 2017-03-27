@@ -1,0 +1,16 @@
+@import "common";
+.mui-active{
+  .mui-off-canvas-right{
+    visibility: visible; z-index: 0; transform-origin: 200% center 0px; opacity: 1; transform: translate3d(0px, 0px, 0px) scale(1);
+  }
+  .mui-inner-wrap{
+    transform-origin: right center 0px; transform: translate3d(-300px, 0px, 0px) scale(0.8) !important;
+  }
+}
+.mui-inner-wrap{
+  @extend %oh;
+  background-color: #ddd;
+}
+.mui-scroll-wrapper{
+  background-color: #fff;
+}
