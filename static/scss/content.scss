@@ -1,0 +1,8 @@
+@import "define";
+.content-con{
+  @extend %f14;
+  @extend %c6;
+  padding: 0 10px;
+  margin-top: 20px;
+  line-height: 1.8;
+}

@@ -1,0 +1,20 @@
+@import "define";
+#header{
+  @extend %df;
+}
+.header-logo{
+  height: 44px;
+  width: 88px;
+  margin-right: 10px;
+}
+.mui-input-row{
+  @extend %df1;
+}
+.container{
+  @extend %pa;
+  top: 44px;
+  bottom: 50px;
+  left: 0;
+  right: 0;
+  overflow-y: auto;
+}

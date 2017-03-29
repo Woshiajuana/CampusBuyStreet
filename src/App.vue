@@ -65,7 +65,6 @@
           <span class="mui-tab-label">我的买手街</span>
         </a>
       </nav>
-
       <router-view v-on:showNavId="showNavId"></router-view>
     </div>
     <!--/主体部分-->

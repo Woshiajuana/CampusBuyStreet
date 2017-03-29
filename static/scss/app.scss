@@ -4,13 +4,16 @@
     visibility: visible; z-index: 0; transform-origin: 200% center 0px; opacity: 1; transform: translate3d(0px, 0px, 0px) scale(1);
   }
   .mui-inner-wrap{
-    transform-origin: right center 0px; transform: translate3d(-300px, 0px, 0px) scale(0.8) !important;
+    transform-origin: right center 0px; transform: translate3d(-90%, 0px, 0px) scale(0.8) !important;
   }
 }
 .mui-inner-wrap{
   @extend %oh;
-  background-color: #ddd;
+  background-color: #efeff4;;
 }
 .mui-scroll-wrapper{
   background-color: #fff;
+}
+.mui-bar-tab{
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.85) !important;
 }

@@ -5,7 +5,7 @@ export default {
   name: 'find',
   data () {
     return {
-      msg: '发现'
+      content_title: this.$route.params.id
     }
   },
   created: function () {
