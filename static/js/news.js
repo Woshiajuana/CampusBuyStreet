@@ -14,6 +14,9 @@ export default {
   methods:{
     showNavId: function (){
       this.$emit('showNavId',3)
+    },
+    returnPage: function () {
+      history.go(-1);
     }
   }
 }
