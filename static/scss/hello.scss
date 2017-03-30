@@ -18,3 +18,24 @@
   right: 0;
   overflow-y: auto;
 }
+.main-product{
+  @extend %clearfix;
+  margin: 20px 10px 0;
+}
+.product-item{
+  @extend %fl;
+  @extend %tac;
+  width: 25%;
+}
+.product-img{
+  @extend %db;
+  @extend %ma;
+  width: 70%;
+  height: auto;
+  border-radius: 50%;
+}
+.product-span{
+  @extend %f14;
+  @extend %c6;
+  line-height: 30px;
+}

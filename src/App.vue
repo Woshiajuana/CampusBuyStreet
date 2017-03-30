@@ -52,11 +52,11 @@
           <span class="mui-icon mui-icon-home"></span>
           <span class="mui-tab-label">首页</span>
         </a>
-        <a class="mui-tab-item" href="#find" :class="{'mui-active':nav_active_id == 2}" @click="nav_active_id = 2">
+        <a class="mui-tab-item" href="#/find" :class="{'mui-active':nav_active_id == 2}" @click="nav_active_id = 2">
           <span class="mui-icon mui-icon-eye"></span>
           <span class="mui-tab-label">发现</span>
         </a>
-        <a class="mui-tab-item" href="#news" :class="{'mui-active':nav_active_id == 3}" @click="nav_active_id = 3">
+        <a class="mui-tab-item" href="#/news" :class="{'mui-active':nav_active_id == 3}" @click="nav_active_id = 3">
           <span class="mui-icon mui-icon-email"></span>
           <span class="mui-tab-label">消息</span>
         </a>
@@ -65,7 +65,11 @@
           <span class="mui-tab-label">我的买手街</span>
         </a>
       </nav>
-      <router-view v-on:showNavId="showNavId"></router-view>
+      <transition>
+        <keep-alive>
+          <router-view v-on:showNavId="showNavId"></router-view>
+        </keep-alive>
+      </transition>
     </div>
     <!--/主体部分-->
 

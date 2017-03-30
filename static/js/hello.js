@@ -3,11 +3,6 @@
  */
 export default {
   name: 'hello',
-  data () {
-    return {
-      msg: '首页'
-    }
-  },
   created: function () {
     this.showNavId();
   },

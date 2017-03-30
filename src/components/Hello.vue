@@ -62,7 +62,100 @@
         </div>
       </div>
       <!--/轮播图-->
-
+      <div class="main-product">
+        <router-link to="/contents/4" class="product-item">
+          <img src="../../static/images/header_images.png" class="product-img" alt=""/>
+          <span class="product-span">自行车</span>
+        </router-link>
+        <router-link to="/content/5" class="product-item">
+          <img src="../../static/images/header_images.png" class="product-img" alt=""/>
+          <span class="product-span">自行车</span>
+        </router-link>
+        <router-link to="/content/6" class="product-item">
+          <img src="../../static/images/header_images.png" class="product-img" alt=""/>
+          <span class="product-span">自行车</span>
+        </router-link>
+        <router-link to="/content/7" class="product-item">
+          <img src="../../static/images/header_images.png" class="product-img" alt=""/>
+          <span class="product-span">自行车</span>
+        </router-link>
+      </div>
+      <div class="mui-card" style="margin-bottom: 35px;">
+        <ul class="mui-table-view">
+          <li class="mui-table-view-cell mui-media">
+            <a href="javascript:;">
+              <img class="mui-media-object mui-pull-right" src="../../static/images/muwu.jpg">
+              <div class="mui-media-body">
+                木屋
+                <p class="mui-ellipsis">想要这样一间小木屋，夏天挫冰吃瓜，冬天围炉取暖.</p>
+              </div>
+            </a>
+          </li>
+          <li class="mui-table-view-cell mui-media">
+            <a href="javascript:;">
+              <img class="mui-media-object mui-pull-right" src="../../static/images/cbd.jpg">
+              <div class="mui-media-body">
+                CBD
+                <p class="mui-ellipsis">烤炉模式的城，到黄昏，如同打翻的调色盘一般.</p>
+              </div>
+            </a>
+          </li>
+          <li class="mui-table-view-cell mui-media">
+            <a href="javascript:;">
+              <img class="mui-media-object mui-pull-right" src="../../static/images/yuantiao.jpg">
+              <div class="mui-media-body">
+                远眺
+                <p class="mui-ellipsis">静静的看这个世界，最后终于疯了</p>
+              </div>
+            </a>
+          </li>
+          <li class="mui-table-view-cell mui-media">
+            <a href="javascript:;">
+              <img class="mui-media-object mui-pull-right" src="../../static/images/yuantiao.jpg">
+              <div class="mui-media-body">
+                远眺
+                <p class="mui-ellipsis">静静的看这个世界，最后终于疯了</p>
+              </div>
+            </a>
+          </li>
+          <li class="mui-table-view-cell mui-media">
+            <a href="javascript:;">
+              <img class="mui-media-object mui-pull-right" src="../../static/images/yuantiao.jpg">
+              <div class="mui-media-body">
+                远眺
+                <p class="mui-ellipsis">静静的看这个世界，最后终于疯了</p>
+              </div>
+            </a>
+          </li>
+          <li class="mui-table-view-cell mui-media">
+            <a href="javascript:;">
+              <img class="mui-media-object mui-pull-right" src="../../static/images/yuantiao.jpg">
+              <div class="mui-media-body">
+                远眺
+                <p class="mui-ellipsis">静静的看这个世界，最后终于疯了</p>
+              </div>
+            </a>
+          </li>
+          <li class="mui-table-view-cell mui-media">
+            <a href="javascript:;">
+              <img class="mui-media-object mui-pull-right" src="../../static/images/yuantiao.jpg">
+              <div class="mui-media-body">
+                远眺
+                <p class="mui-ellipsis">静静的看这个世界，最后终于疯了</p>
+              </div>
+            </a>
+          </li>
+          <li class="mui-table-view-cell mui-media">
+            <a href="javascript:;">
+              <img class="mui-media-object mui-pull-right" src="../../static/images/yuantiao.jpg">
+              <div class="mui-media-body">
+                远眺
+                <p class="mui-ellipsis">静静的看这个世界，最后终于疯了</p>
+              </div>
+            </a>
+          </li>
+        </ul>
+      </div>
     </div>
   </div>
 </template>

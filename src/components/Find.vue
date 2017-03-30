@@ -2,9 +2,9 @@
   <div class="find">
     <header class="mui-bar mui-bar-nav">
       <a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left" @click="returnPage()"></a>
-      <h1 class="mui-title">发现</h1>
+      <h1 class="mui-title" v-text="content_title"></h1>
     </header>
-    <router-view></router-view>
+    <router-view v-on:showTitle="showTitle" v-on:returnScroll="returnScroll"></router-view>
   </div>
 </template>
 

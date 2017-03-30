@@ -3,20 +3,12 @@
  */
 export default {
   name: 'find',
-  data () {
-    return {
-      content_title: this.$route.params.id
-    }
-  },
   created: function () {
-    this.showNavId();
+    this.showTitle();
   },
   methods:{
-    showNavId: function (){
-      this.$emit('showNavId',2)
-    },
-    returnPage: function () {
-      history.go(-1);
+    showTitle: function (){
+      this.$emit('showTitle',this.$route.params.id)
     }
   }
 }

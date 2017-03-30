@@ -5,7 +5,7 @@ export default {
   name: 'news',
   data () {
     return {
-      msg: '消息'
+      content_title: '消息'
     }
   },
   created: function () {
