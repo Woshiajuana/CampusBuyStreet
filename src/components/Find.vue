@@ -4,7 +4,7 @@
       <a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left" @click="returnPage()"></a>
       <h1 class="mui-title" v-text="content_title"></h1>
     </header>
-    <router-view v-on:showTitle="showTitle" v-on:returnScroll="returnScroll"></router-view>
+    <router-view v-on:showTitle="showTitle"></router-view>
   </div>
 </template>
 

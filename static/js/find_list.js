@@ -5,6 +5,11 @@ export default {
   name: 'find',
   created: function () {
     this.showTitle();
+    this.$nextTick(function () {
+      var ele = window.document.querySelector('.container-list');
+      if(ele)
+        ele.scrollTop = this.$store.state.findStore.position;
+    });
   },
   methods:{
     showTitle: function (){
@@ -12,7 +17,7 @@ export default {
     },
     rememberScroll: function () {
       var scrollTop = document.querySelector('.container').scrollTop;
-      this.$emit('returnScroll',scrollTop)
+      this.$store.commit('remberPositionY',scrollTop);
     }
   }
 }
